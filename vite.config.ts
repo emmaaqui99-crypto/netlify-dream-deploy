@@ -12,4 +12,6 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Outside Lovable (e.g. building on Netlify) target Netlify. Inside Lovable this is ignored.
+  nitro: { preset: process.env["NETLIFY"] ? "netlify" : undefined },
 });
