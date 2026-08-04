@@ -22,6 +22,7 @@ import olufemi from "@/assets/olufemi-george.jpeg";
 import emmanuel from "@/assets/emmanuel-victor.jpeg";
 import tukura from "@/assets/tukura-aquila.jpeg";
 import habakkuk from "@/assets/habakkuk-lucky.jpeg";
+import patience from "@/assets/patience-paul-musa-blue.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: HomePage,
