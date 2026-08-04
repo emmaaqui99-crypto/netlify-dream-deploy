@@ -22,7 +22,6 @@ import olufemi from "@/assets/olufemi-george.jpeg";
 import emmanuel from "@/assets/emmanuel-victor.jpeg";
 import tukura from "@/assets/tukura-aquila.jpeg";
 import habakkuk from "@/assets/habakkuk-lucky.jpeg";
-import patience from "@/assets/patience-paul-musa-blue.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: HomePage,
@@ -169,7 +168,7 @@ const team = [
   { name: "EMMANUEL, O. VICTOR", role: "Chief Financial Officer", bio: "Building a challenging career based on diligence in a unique and performance driven organization, putting effort in fulfilling my employer's goal, while leveraging my skills to continually contribute to the attainment of the organizational objectives and my career development.", img: emmanuel },
   { name: "Tukura Zhimane Aquila", role: "Full Stack Developer", bio: "A passionate Full Stack Developer specializing in building modern, responsive, and scalable web applications and websites. Skilled in front-end and back-end development, API integration, database management, and cloud deployment, with a strong interest in data science and artificial intelligence. Committed to delivering clean, efficient, and user-focused digital solutions that solve real-world problems.", img: tukura },
   { name: "HABAKKUK ETSU LUCKY", role: "Digital Forensic Professional", bio: "Motivated and detail-oriented Cybersecurity Science graduate with a Second Class Upper degree from the Federal University of Technology, Minna. Passionate about cybersecurity, digital forensics, information security, and digital literacy. Possesses a strong foundation in networking, operating systems, cybersecurity principles, and computer operations, complemented by leadership experience during the National Youth Service Corps (NYSC). Eager to contribute to organizational growth while continuously developing practical cybersecurity and IT skills.", img: habakkuk },
-  { name: "Patience P. Paul-musa", role: "Chief Marketing Officer", bio: "A Strategic Chief Marketing Officer with expertise in brand development, digital marketing, and business growth. Experienced in leading high-impact marketing campaigns, building strong customer relationships, and driving revenue through data-driven strategies and innovative market positioning. Passionate about delivering measurable results and creating lasting brand value.", img: patience.url },
+  { name: "Patience P. Paul-musa", role: "Chief Marketing Officer", bio: "A Strategic Chief Marketing Officer with expertise in brand development, digital marketing, and business growth. Experienced in leading high-impact marketing campaigns, building strong customer relationships, and driving revenue through data-driven strategies and innovative market positioning. Passionate about delivering measurable results and creating lasting brand value.", img: "/patience-paul-musa.png" },
 ];
 
 
