@@ -22,6 +22,7 @@ import olufemi from "@/assets/olufemi-george.jpeg";
 import emmanuel from "@/assets/emmanuel-victor.jpeg";
 import tukura from "@/assets/tukura-aquila.jpeg";
 import habakkuk from "@/assets/habakkuk-lucky.jpeg";
+import patience from "@/assets/patience-paul-musa-blue.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: HomePage,
@@ -163,6 +164,7 @@ const voicePlatforms = [
 
 const team = [
   { name: "GEORGE, Olufemi O.", role: "Chief Data Officer", bio: "Full-Stack Engineer and Technical Co-Founder with 9+ years of experience building scalable web applications, backend services, and distributed systems using Next.js, React, Node.js, TypeScript, and PostgreSQL. Experienced in delivering products from architecture to deployment, including multi-tenant SaaS platforms, secure APIs, fintech solutions, Web3 applications, and third-party integrations.", img: olufemi },
+  { name: "Patience P. Paul-musa", role: "Chief Marketing Officer", bio: "A Strategic Chief Marketing Officer with expertise in brand development, digital marketing, and business growth. Experienced in leading high-impact marketing campaigns, building strong customer relationships, and driving revenue through data-driven strategies and innovative market positioning. Passionate about delivering measurable results and creating lasting brand value.", img: patience.url },
   { name: "Abdulrasheed Musa", role: "Chief Information Officer", bio: "Over 15 years implementing flagship technological platforms and national networks across Sub-Saharan Africa.", img: ceo },
   { name: "Solomon Yakubu", role: "Chief Technology Officer", bio: "Expert in microservice integrations, secure high scale database setups, and robust enterprise platform architectures.", img: cto },
   { name: "EMMANUEL, O. VICTOR", role: "Chief Financial Officer", bio: "Building a challenging career based on diligence in a unique and performance driven organization, putting effort in fulfilling my employer's goal, while leveraging my skills to continually contribute to the attainment of the organizational objectives and my career development.", img: emmanuel },
