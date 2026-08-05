@@ -907,7 +907,7 @@ function PartnerBanner() {
       className="fixed inset-x-0 top-0 z-[60] bg-gradient-deep py-2.5 px-4 text-center shadow-brand"
     >
       <p className="text-xs font-bold uppercase tracking-[0.15em] text-white md:text-sm">
-        BlueGuava &amp; Xenolink Are Officially Development Partners
+        BlueGuava &amp; Xenolink Are Official Development Partners
       </p>
     </motion.div>
   );
