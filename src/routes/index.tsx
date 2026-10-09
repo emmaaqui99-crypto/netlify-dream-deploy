@@ -5,7 +5,7 @@ import {
   Code2, Cloud, ShieldCheck, Cpu, Globe, Settings, Boxes, ArrowRight,
   Phone, Mail, MapPin, ChevronLeft, ChevronRight, Menu, X, Sparkles,
   Building2, Hospital, GraduationCap, Landmark, Users, Briefcase, ShieldAlert,
-  Mic, Monitor, Chrome, Smartphone, Tablet, CheckCircle2, Stethoscope,
+  Mic, Monitor, Chrome, Smartphone, Tablet, CheckCircle2, Stethoscope, Youtube,
 } from "lucide-react";
 
 
@@ -883,15 +883,33 @@ function ContactSection() {
 function Footer() {
   return (
     <footer className="border-t border-border bg-white py-10">
-      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 md:flex-row">
-        <div className="flex items-center gap-2">
-          <Logo className="h-8 w-8" />
-          <span className="font-bold text-brand-5">
-            Blue<span className="text-brand-3">Guava</span>
-          </span>
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-6 px-6">
+        <div className="flex flex-wrap items-center justify-center gap-3">
+          <a
+            href="https://youtube.com/@discoverdestiniesx"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-5 py-2.5 text-sm font-semibold text-brand-5 transition-colors hover:border-brand-3 hover:text-brand-3"
+          >
+            <Youtube size={16} /> youtube.com/@discoverdestiniesx
+          </a>
+          <a
+            href="mailto:support@blueguava.com.ng"
+            className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-5 py-2.5 text-sm font-semibold text-brand-5 transition-colors hover:border-brand-3 hover:text-brand-3"
+          >
+            <Mail size={16} /> support@blueguava.com.ng
+          </a>
         </div>
-        <div className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} BlueGuava. Smart Technology for a Smarter World.
+        <div className="flex w-full flex-col items-center justify-between gap-4 md:flex-row">
+          <div className="flex items-center gap-2">
+            <Logo className="h-8 w-8" />
+            <span className="font-bold text-brand-5">
+              Blue<span className="text-brand-3">Guava</span>
+            </span>
+          </div>
+          <div className="text-xs text-muted-foreground">
+            © {new Date().getFullYear()} BlueGuava. Smart Technology for a Smarter World.
+          </div>
         </div>
       </div>
     </footer>
